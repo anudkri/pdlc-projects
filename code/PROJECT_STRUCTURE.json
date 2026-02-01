@@ -1,8 +1,8 @@
 {
-  "architecture": "Minimalist Mobile App Architecture",
+  "architecture": "Unknown Architecture",
   "tech_stack": [
-    "React Native",
-    "Redux"
+    "python bash and shell scripting",
+    "include all necessary libraries to make this a command line app"
   ],
   "description": "Code structure for PDLC-11",
   "files": [
@@ -19,5 +19,7 @@
     "src/middleware/errorHandler.ts",
     "tests/health.test.ts",
     "DEPLOYMENT.md"
-  ]
+  ],
+  "generated_from": "ADR-PDLC-11.md",
+  "generated_at": "2026-02-01 20:36:36"
 }
