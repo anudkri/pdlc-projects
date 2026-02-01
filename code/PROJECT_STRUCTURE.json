@@ -1,0 +1,23 @@
+{
+  "architecture": "Minimalist Mobile App Architecture",
+  "tech_stack": [
+    "React Native",
+    "Redux"
+  ],
+  "description": "Code structure for PDLC-11",
+  "files": [
+    "README.md",
+    ".gitignore",
+    "package.json",
+    "tsconfig.json",
+    ".eslintrc.json",
+    "docker-compose.yml",
+    "Dockerfile",
+    ".env.example",
+    "src/index.ts",
+    "src/utils/logger.ts",
+    "src/middleware/errorHandler.ts",
+    "tests/health.test.ts",
+    "DEPLOYMENT.md"
+  ]
+}
