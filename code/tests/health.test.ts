@@ -1,5 +1,5 @@
 describe('Health Check', () => {
-  test('should return ok status', () => {
+  test('should pass', () => {
     expect(true).toBe(true);
   });
 });

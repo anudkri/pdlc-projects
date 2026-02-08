@@ -1,15 +1,18 @@
-# PDLC-11 - Project Code Repository
+# PDLC-17 - Project Code Repository
 
 > **Actual implementation code with full tech stack**
 
-This is the working codebase for **PDLC-11** project, auto-generated based on approved Architecture Decision Record (ADR).
+This is the working codebase for **PDLC-17** project, auto-generated based on approved Architecture Decision Record (ADR).
 
 ## 🏗️ Architecture & Tech Stack
 
 **Architecture Pattern**: Unknown Architecture
 
 **Technologies**:
-- **python**: python command line shell scripting bash
+- **Express**: Express
+- **Docker**: Docker
+- **Node.js**: Node.js
+- **React**: React
 
 ## 📐 Design Reference
 
@@ -33,14 +36,14 @@ For details, check:
 ### Health Check
 ```
 GET /health
-Response: {"status": "ok", "service": "PDLC-11"}
+Response: {"status": "ok", "service": "PDLC-17"}
 ```
 
 ### Project Info
 ```
 GET /api/v1/info
 Response: {
-  "name": "PDLC-11",
+  "name": "PDLC-17",
   "architecture": "Unknown Architecture",
   "version": "0.1.0"
 }
