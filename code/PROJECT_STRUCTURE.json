@@ -1,20 +1,19 @@
 {
-  "architecture": "Unknown Architecture",
+  "architecture": "Monolithic Web Application",
   "tech_stack": [
-    "python command line shell scripting bash"
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "HTML/CSS/JavaScript",
+    "SendGrid"
   ],
-  "description": "Code structure for PDLC-11",
+  "description": "Code structure for PDLC-17",
   "files": [
     "README.md",
-    "pyproject.toml",
-    "requirements.txt",
-    "src/__init__.py",
-    "src/main.py",
-    "tests/__init__.py",
-    "tests/test_health.py",
+    "go.mod",
+    "main.go",
+    "main_test.go",
     ".env.example",
     ".gitignore"
-  ],
-  "generated_from": "ADR-PDLC-11.md",
-  "generated_at": "2026-02-01 21:05:04"
+  ]
 }
