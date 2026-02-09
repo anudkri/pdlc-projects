@@ -1,0 +1,13 @@
+{
+  "name": "noteease-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for NoteEase app",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "@playwright/test": "^1.30.0"
+  }
+}
