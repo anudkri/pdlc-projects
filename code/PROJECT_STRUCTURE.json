@@ -1,9 +1,12 @@
 {
-  "architecture": "Unknown Architecture",
+  "architecture": "Monolithic Architecture",
   "tech_stack": [
-    "React"
+    "Node.js",
+    "Express",
+    "MySQL",
+    "EJS"
   ],
-  "description": "Code structure for PDLC-45",
+  "description": "Code structure for PDLC-52",
   "files": [
     "README.md",
     "package.json",
@@ -12,7 +15,5 @@
     "tests/health.test.ts",
     ".env.example",
     ".gitignore"
-  ],
-  "generated_from": "ADR-PDLC-45.md",
-  "generated_at": "2026-02-09 17:16:54"
+  ]
 }
