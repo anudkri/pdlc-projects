@@ -9,12 +9,12 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/health', (req: Request, res: Response) => {
-  res.json({ status: 'ok', service: 'PDLC-24' });
+  res.json({ status: 'ok', service: 'PDLC-45' });
 });
 
 app.get('/api/v1/info', (req: Request, res: Response) => {
   res.json({
-    name: 'PDLC-24',
+    name: 'PDLC-45',
     architecture: 'Unknown Architecture',
     version: '0.1.0'
   });

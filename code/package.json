@@ -1,7 +1,7 @@
 {
-  "name": "pdlc-24-app",
+  "name": "pdlc-45-app",
   "version": "0.1.0",
-  "description": "Unknown Architecture - PDLC-24",
+  "description": "Unknown Architecture - PDLC-45",
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",

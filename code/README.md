@@ -1,15 +1,14 @@
-# PDLC-24 - Project Code Repository
+# PDLC-45 - Project Code Repository
 
 > **Actual implementation code with full tech stack**
 
-This is the working codebase for **PDLC-24** project, auto-generated based on approved Architecture Decision Record (ADR).
+This is the working codebase for **PDLC-45** project, auto-generated based on approved Architecture Decision Record (ADR).
 
 ## 🏗️ Architecture & Tech Stack
 
 **Architecture Pattern**: Unknown Architecture
 
 **Technologies**:
-- **Node.js**: Node.js
 - **React**: React
 
 ## 📐 Design Reference
@@ -34,14 +33,14 @@ For details, check:
 ### Health Check
 ```
 GET /health
-Response: {"status": "ok", "service": "PDLC-24"}
+Response: {"status": "ok", "service": "PDLC-45"}
 ```
 
 ### Project Info
 ```
 GET /api/v1/info
 Response: {
-  "name": "PDLC-24",
+  "name": "PDLC-45",
   "architecture": "Unknown Architecture",
   "version": "0.1.0"
 }
