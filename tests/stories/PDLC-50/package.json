@@ -1,0 +1,20 @@
+{
+  "name": "test-automation-pdlc-50",
+  "version": "1.0.0",
+  "description": "BDD test automation for PDLC-50",
+  "scripts": {
+    "test": "cucumber-js stories/**/features --require-module @babel/register --require 'stories/**/step_definitions/**/*.steps.js'",
+    "test:watch": "nodemon --exec npm test",
+    "test:chrome": "cucumber-js stories/**/features --profile chrome",
+    "test:firefox": "cucumber-js stories/**/features --profile firefox",
+    "test:report": "cucumber-js stories/**/features --format html:reports/cucumber-report.html"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.22.0",
+    "@cucumber/cucumber": "^10.0.0",
+    "@playwright/test": "^1.40.0",
+    "nodemon": "^3.0.0"
+  },
+  "keywords": ["bdd", "cucumber", "playwright", "testing"],
+  "author": "PDLC QA Engineer"
+}
