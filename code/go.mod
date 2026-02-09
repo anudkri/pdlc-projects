@@ -1,3 +1,3 @@
-module pdlc-17-app
+module pdlc-24-app
 
 go 1.20

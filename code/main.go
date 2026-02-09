@@ -26,10 +26,10 @@ func main() {
 
 func healthHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	fmt.Fprintf(w, `{"status": "ok", "service": "PDLC-17"}`)
+	fmt.Fprintf(w, `{"status": "ok", "service": "PDLC-24"}`)
 }
 
 func infoHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	fmt.Fprintf(w, `{"name": "PDLC-17", "architecture": "Monolithic Web Application", "version": "0.1.0"}`)
+	fmt.Fprintf(w, `{"name": "PDLC-24", "architecture": "Monolithic Web Application", "version": "0.1.0"}`)
 }
