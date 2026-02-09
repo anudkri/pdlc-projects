@@ -1,0 +1,18 @@
+{
+  "name": "test-automation-pdlc-26",
+  "version": "1.0.0",
+  "description": "BDD test automation for PDLC-26",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:chrome": "cucumber-js --profile chrome",
+    "test:firefox": "cucumber-js --profile firefox",
+    "test:report": "open reports/cucumber-report.html"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.22.0",
+    "@cucumber/cucumber": "^10.0.0",
+    "@playwright/test": "^1.40.0"
+  },
+  "keywords": ["bdd", "cucumber", "playwright", "testing"],
+  "author": "PDLC QA Engineer"
+}

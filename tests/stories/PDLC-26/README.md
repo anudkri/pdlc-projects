@@ -1,6 +1,6 @@
-# Test Automation: PDLC-17
+# Test Automation: PDLC-26
 
-## PRD: Simple Note Taking Web Application
+## As a user, I want to edit an existing note
 
 This test suite provides comprehensive BDD test coverage using Cucumber and Playwright.
 

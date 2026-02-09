@@ -1,0 +1,13 @@
+{
+  "urls": {
+    "login": "https://example.com/login",
+    "notes": "https://example.com/notes"
+  },
+  "userCredentials": {
+    "username": "testuser",
+    "password": "testpassword"
+  },
+  "messages": {
+    "error": "Cannot delete a non-existent note."
+  }
+}

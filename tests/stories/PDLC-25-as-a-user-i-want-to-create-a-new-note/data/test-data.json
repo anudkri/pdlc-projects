@@ -1,0 +1,18 @@
+{
+  "validNote": {
+    "title": "Sample Note Title",
+    "body": "Sample Note Body"
+  },
+  "emptyTitle": {
+    "title": "",
+    "body": "Sample Note Body"
+  },
+  "emptyBody": {
+    "title": "Sample Note Title",
+    "body": ""
+  },
+  "errorMessages": {
+    "titleError": "Title cannot be empty",
+    "bodyError": "Body cannot be empty"
+  }
+}
