@@ -1,21 +1,17 @@
 {
-  "architecture": "Unknown Architecture",
+  "architecture": "Monolithic Web Application",
   "tech_stack": [
-    "Express",
-    "Docker",
+    "React",
     "Node.js",
-    "React"
+    "MongoDB"
   ],
-  "description": "Code structure for PDLC-17",
+  "description": "Code structure for PDLC-24",
   "files": [
     "README.md",
-    "package.json",
-    "tsconfig.json",
-    "src/index.ts",
-    "tests/health.test.ts",
+    "go.mod",
+    "main.go",
+    "main_test.go",
     ".env.example",
     ".gitignore"
-  ],
-  "generated_from": "ADR-PDLC-17.md",
-  "generated_at": "2026-02-08 17:57:03"
+  ]
 }
