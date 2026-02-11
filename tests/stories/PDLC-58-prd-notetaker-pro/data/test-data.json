@@ -1,0 +1,17 @@
+{
+  "validCredentials": {
+    "username": "validUser",
+    "password": "validPass"
+  },
+  "invalidCredentials": {
+    "username": "invalidUser",
+    "password": "invalidPass"
+  },
+  "noteData": {
+    "title": "Meeting Notes",
+    "body": "Discuss project timeline"
+  },
+  "tags": ["Work", "Personal"],
+  "searchKeyword": "project",
+  "updatedNoteBody": "Updated project timeline"
+}
