@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "message": "Tests failed (exit code 1)",
+  "passed": 0,
+  "failed": 0,
+  "skipped": 0,
+  "timestamp": "2026-02-11T16:40:44.117594",
+  "test_files_count": 10
+}
