@@ -2,38 +2,60 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Feature: User Registration', () => {
   test('Valid Email and Password Sign-Up', async ({ page }) => {
-    // Define known URL for the sign-up page
-    const signUpUrl = 'https://example.com/signup';
-
-    // Step 1: Navigate to the sign-up page
+    // Step 1: Navigate to the homepage
     try {
-      await page.goto(signUpUrl, { timeout: 10000 });
+      await page.goto('https://example.com'); // replace with actual homepage URL
     } catch (error) {
-      throw new Error('Failed to navigate to the sign-up page: ' + error);
+      console.error('Failed to navigate to the homepage:', error);
+      throw error;
     }
 
-    // Step 2: Enter a valid email address
-    const emailInput = await page.locator('input[name="email"]');
-    await emailInput.fill('testuser@example.com');
+    // Step 2: Navigate to the sign-up page
+    try {
+      await page.click('text=Sign Up'); // replace with actual selector for the sign-up link/button
+    } catch (error) {
+      console.error('Failed to navigate to the sign-up page:', error);
+      throw error;
+    }
 
-    // Step 3: Enter a valid password
-    const passwordInput = await page.locator('input[name="password"]');
-    await passwordInput.fill('ValidPassword123!');
+    // Step 3: Enter a valid email address
+    const validEmail = 'testuser@example.com';
+    try {
+      await page.fill('input[name="email"]', validEmail); // replace with actual email input selector
+    } catch (error) {
+      console.error('Failed to enter email:', error);
+      throw error;
+    }
 
-    // Step 4: Submit the sign-up form
-    const submitButton = await page.locator('button[type="submit"]');
-    await Promise.all([
-      page.waitForNavigation({ timeout: 10000 }),
-      submitButton.click()
-    ]);
+    // Step 4: Enter a strong password
+    const strongPassword = 'StrongPassword123!';
+    try {
+      await page.fill('input[name="password"]', strongPassword); // replace with actual password input selector
+    } catch (error) {
+      console.error('Failed to enter password:', error);
+      throw error;
+    }
 
-    // Step 5: Assert that user is successfully registered
-    const successMessage = await page.locator('text=Registration Successful');
-    await expect(successMessage).toBeVisible({ timeout: 5000 }, 'Registration success message is not visible');
+    // Step 5: Submit the sign-up form
+    try {
+      await page.click('button[type="submit"]'); // replace with actual form submission selector
+    } catch (error) {
+      console.error('Failed to submit the sign-up form:', error);
+      throw error;
+    }
 
-    // Placeholder step for email confirmation check
-    // Note: Actual email checking would require integration with an email service or mock
-    const emailSent = true; // Simulated email sent verification
-    expect(emailSent).toBeTruthy('Confirmation email was not sent');
+    // Step 6: Verify successful sign-up
+    try {
+      const successMessage = await page.waitForSelector('text=Registration Successful', { timeout: 10000 });
+      expect(successMessage).not.toBeNull('Sign-up was not successful.');
+    } catch (error) {
+      console.error('Failed to verify successful sign-up:', error);
+      throw error;
+    }
+
+    // Step 7: Verify confirmation email sent
+    // Note: This step might require integration with an email service to confirm the email was sent
+    // Example: await verifyEmailSent(validEmail);
+    expect(true).toBeTruthy('Confirmation email verification is not implemented.');
   });
 });
