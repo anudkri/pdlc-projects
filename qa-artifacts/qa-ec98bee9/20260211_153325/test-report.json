@@ -1,0 +1,19 @@
+{
+  "test_files_count": 9,
+  "test_files": [
+    "Validate_Sorting_Logic_with_Different_Date_Formats.spec.ts",
+    "Verify_sorting_of_notes_by_date_created_in_ascending_order.spec.ts",
+    "Sort_notes_by_date_created_with_multiple_notes.spec.ts",
+    "Sort_notes_by_date_created_in_ascending_order.spec.ts",
+    "Sort_Notes_by_Date_Created_-_Ascending_Order.spec.ts",
+    "Verify_sorting_in_ascending_order.spec.ts",
+    "Verify_sorting_functionality_with_multiple_notes.spec.ts",
+    "Verify_ascending_sort_by_date_created.spec.ts",
+    "User_Login_with_Valid_Credentials.spec.ts"
+  ],
+  "status": "failed",
+  "message": "Tests failed with exit code 1",
+  "report_html": null,
+  "stdout": "{\n  \"config\": {\n    \"configFile\": \"/Users/anudeep/pdlc/code/KineticQA/playwright.config.ts\",\n    \"rootDir\": \"/Users/anudeep/pdlc/code/KineticQA\",\n    \"forbidOnly\": false,\n    \"fullyParallel\": true,\n    \"globalSetup\": null,\n    \"globalTeardown\": null,\n    \"globalTimeout\": 0,\n    \"grep\": {},\n    \"grepInvert\": null,\n    \"maxFailures\": 0,\n    \"metadata\": {},\n    \"preserveOutput\": \"always\",\n    \"projects\": [\n      {\n        \"outputDir\": \"/Users/anudeep/pdlc/code/KineticQA/test-results\",\n        \"repeatEach\": 1,\n        \"retries\": 0,\n        \"metadata\": {},\n        \"id\": \"chromium\",\n        \"name\": \"chromium\",\n        \"testDir\": \"/Users/anudeep/pdlc/code/KineticQA\",\n        \"testIgnore\": [],\n        \"testMatch\": [\n          \"**/*.@(spec|test).?(c|m)[jt]s?(x)\"\n        ],\n        \"timeout\": 60000\n      }\n    ],\n    \"quiet\": false,\n    \"reporter\": [\n      [\n        \"json\"\n      ]\n    ],\n    \"reportSlowTests\": {\n      \"max\": 5,\n      \"threshold\": 300000\n    },\n    \"runAgents\": \"none\",\n    \"shard\": null,\n    \"tags\": [],\n    \"updateSnapshots\": \"missing\",\n    \"updateSourceMethod\": \"patch\",\n    \"version\": \"1.58.2\",\n    \"workers\": 6,\n    \"webServer\": null\n  },\n  \"suites\": [],\n  \"errors\": [\n    {\n      \"message\": \"Error: No tests found.\\nMake sure that arguments are regular expressions matching test files.\\nYou may need to escape symbols like \\\"$\\\" or \\\"*\\\" and quote the arguments.\",\n      \"stack\": \"Error: No tests found.\\nMake sure that arguments are regular expressions matching test files.\\nYou may need to escape symbols like \\\"$\\\" or \\\"*\\\" and quote the arguments.\"\n    }\n  ],\n  \"stats\": {\n    \"startTime\": \"2026-02-11T10:03:25.807Z\",\n    \"duration\": 62.452000000000226,\n    \"expected\": 0,\n    \"skipped\": 0,\n    \"unexpected\": 0,\n    \"flaky\": 0\n  }\n}\n",
+  "stderr": ""
+}
