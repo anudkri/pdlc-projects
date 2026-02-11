@@ -1,0 +1,16 @@
+{
+  "test_files_count": 6,
+  "test_files": [
+    "Validate_Sorting_Logic_with_Different_Date_Formats.spec.ts",
+    "Verify_sorting_of_notes_by_date_created_in_ascending_order.spec.ts",
+    "Sort_notes_by_date_created_with_multiple_notes.spec.ts",
+    "Sort_notes_by_date_created_in_ascending_order.spec.ts",
+    "Sort_Notes_by_Date_Created_-_Ascending_Order.spec.ts",
+    "Verify_sorting_in_ascending_order.spec.ts"
+  ],
+  "status": "failed",
+  "message": "Error: Cannot find module 'html=/var/folders/v8/fb_ympzj3fn8l_7zwcd1k7w00000gp/T/playwright_tests/reports/report_20260211_131354.html'\nRequire stack:\n- /Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js\n- /Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)\n    at Function.resolve (node:internal/modules/helpers:193:19)\n    at resolveReporter (/Users/anudeep/.npm/_npx/e41f20",
+  "report_html": null,
+  "stdout": "",
+  "stderr": "Error: Cannot find module 'html=/var/folders/v8/fb_ympzj3fn8l_7zwcd1k7w00000gp/T/playwright_tests/reports/report_20260211_131354.html'\nRequire stack:\n- /Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js\n- /Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)\n    at Function.resolve (node:internal/modules/helpers:193:19)\n    at resolveReporter (/Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js:363:18)\n    at /Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js:324:42\n    at Array.map (<anonymous>)\n    at resolveReporterOption (/Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js:324:30)\n    at overridesFromOptions (/Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js:283:15)\n    at runTests (/Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js:196:24)\n    at async i.<anonymous> (/Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js:70:7) {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: [\n    '/Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js',\n    '/Users/anudeep/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js'\n  ]\n}\n"
+}
