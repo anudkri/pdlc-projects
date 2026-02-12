@@ -1,0 +1,9 @@
+{
+  "status": "validated",
+  "message": "Generated 2 Playwright test files ready for execution",
+  "passed": 2,
+  "failed": 0,
+  "skipped": 0,
+  "timestamp": "2026-02-12T14:46:34.245548",
+  "test_files_count": 2
+}
